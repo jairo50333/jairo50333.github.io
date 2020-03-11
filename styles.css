@@ -1,32 +1,34 @@
 ﻿body {
-background-color:yellow;
+background-color:#5a5a5a;
 margin: 0 0 0 0;
 
 }
 .personal_info{
 margin-left:5%;
 width: 30%;
-height:100vh;
+height:90vh;
 background-color: aqua;
 margin-right: 0%;
+margin-top: 5vh;
+border:10px;
 
 }
 
 .photo{
 background-color: rgb(32, 170, 32);
-padding-bottom: 50vh;
+padding-bottom: 45vh;
 }
 .info_text{
 background-color: blue;
-padding-bottom: 50vh;
+padding-bottom: 45vh;
 }
 
 .hexagon {
-    position: relative;
-    width: 10vh;
-    height: 5vh;
-    background-color: #64C7CC;
-    margin: 86.60px 0;
+  position: relative;
+  width: 30vh;
+  height: 15vh;
+  background-color: #64C7CC;
+  margin: 86.60px 0;
   }
   
   .hexagon:before,
@@ -34,24 +36,24 @@ padding-bottom: 50vh;
     content: "";
     position: absolute;
     width: 0;
-    border-left: 5vh solid transparent;
-    border-right: 5vh solid transparent;
+    border-left: 15vh solid transparent;
+    border-right: 15vh solid transparent;
   }
   
   .hexagon:before {
     bottom: 100%;
-    border-bottom: 2.5vh solid #64C7CC;
+    border-bottom: 7.5vh solid #64C7CC;
   }
   
   .hexagon:after {
     top: 100%;
     width: 0;
-    border-top: 2.5vh solid #64C7CC;
+    border-top: 7.5vh solid #64C7CC;
   }
   
 ul{
 position: absolute;
-top:30%;
+top:38%;
 left:50%;
 margin;0;
 padding:0;
@@ -62,6 +64,36 @@ list-style: none;
 position: absolute
 }
 ul li.it1{
-top:0;
-left:0;
+top:-30vh;
+left: -15vh;
+}
+ul li.it2{
+  top: -30vh;
+  left: 16vh;
+}
+ul li.it3{
+  top: -30vh;
+  left:47vh;
+}
+
+ul li.it4{
+  top: -6.5vh;
+  left: 0.5vh;
+}  
+ul li.it5{
+  top: -6.5vh;
+  left:31.5vh;  
+}
+
+ul li.it6{
+  top: 17vh;
+  left:-15vh;
+}
+ul li.it7{
+  top: 17vh;
+  left:16vh;
+}
+ul li.it8{
+  top: 17vh;
+  left:47vh;
 }
