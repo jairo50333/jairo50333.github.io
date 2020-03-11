@@ -1,0 +1,67 @@
+﻿body {
+background-color:yellow;
+margin: 0 0 0 0;
+
+}
+.personal_info{
+margin-left:5%;
+width: 30%;
+height:100vh;
+background-color: aqua;
+margin-right: 0%;
+
+}
+
+.photo{
+background-color: rgb(32, 170, 32);
+padding-bottom: 50vh;
+}
+.info_text{
+background-color: blue;
+padding-bottom: 50vh;
+}
+
+.hexagon {
+    position: relative;
+    width: 10vh;
+    height: 5vh;
+    background-color: #64C7CC;
+    margin: 86.60px 0;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 5vh solid transparent;
+    border-right: 5vh solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 2.5vh solid #64C7CC;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 2.5vh solid #64C7CC;
+  }
+  
+ul{
+position: absolute;
+top:30%;
+left:50%;
+margin;0;
+padding:0;
+
+}
+ul li{
+list-style: none;
+position: absolute
+}
+ul li.it1{
+top:0;
+left:0;
+}
